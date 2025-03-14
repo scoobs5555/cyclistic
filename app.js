@@ -8,8 +8,8 @@ const url = "https://public.tableau.com/views/Cyclistic_17302586905160/Dashboard
 const vizContainer = document.getElementById('vizContainer');
 const options = {
     hideTabs: true,
-    height: 788,
-    width: 1666,
+    height: 768,
+    width: 1366,
     onFirstInteraction: function() {
         workbook = viz.getWorkbook();
         activeSheet = workbook.getActiveSheet();
